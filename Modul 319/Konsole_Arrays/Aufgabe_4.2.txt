@@ -1,0 +1,26 @@
+Console.Write("Bitte geben Sie ihren Namen ein: ");
+string name = Console.ReadLine();
+
+Console.Write("Bitte geben Sie ihren Vorname ein: ");
+string vorname = Console.ReadLine();
+
+Console.WriteLine("Ihr Name lautet: " + vorname + " " + name);
+
+Console.Write("Bitte geben Sie eine Kommazahl ein: ");
+double kommaZahl = Convert.ToDouble(Console.ReadLine());
+
+Console.WriteLine("Das Tausendfache Ihrer Kommazahl lautet: " + (kommaZahl * 1000));
+
+Console.Write("Bitte geben Sie eine ganze Zahl ein: ");
+int ganzZahl = Convert.ToInt32(Console.ReadLine());
+
+if (ganzZahl % 2 == 0)
+{
+  Console.WriteLine("Sie haben eine gerade Zahl eingegeben.");
+}
+else
+{
+  Console.WriteLine("Sie haben eine ungerade Zahl eingegeben.");
+}
+
+Console.Write("Das Quadrat Ihrer Zahl lautet: " + (ganzZahl * ganzZahl));
