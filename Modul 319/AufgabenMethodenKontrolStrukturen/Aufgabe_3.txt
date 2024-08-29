@@ -1,0 +1,9 @@
+-a: Kehrt die variabel um. = -1
+
+a--: Beim incrementieren baut sie ab. = 0
+
+a++ + b: Beim incrementieren nimmt sie + 1 hinzu + b = 9
+
+b = ++a: 2
+
+a = b++: 7

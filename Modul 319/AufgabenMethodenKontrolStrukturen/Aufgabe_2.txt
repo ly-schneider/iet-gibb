@@ -1,0 +1,12 @@
+static void Main(string[] args)
+    {
+      double balance = BerechneZinz(5000, 7.5);
+      Console.WriteLine(balance);
+    }
+
+    static double BerechneZinz(double kapital, double zinssatz)
+    {
+      double zins = kapital * (zinssatz / 100);
+      double balance = kapital + zins;
+      return balance;
+    }
