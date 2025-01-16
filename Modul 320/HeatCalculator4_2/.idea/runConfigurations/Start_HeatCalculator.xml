@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Start HeatCalculator" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="ch.iet_gibb.HeatCalculator" />
+    <module name="HeatCalculator" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

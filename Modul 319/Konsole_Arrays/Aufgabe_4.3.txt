@@ -1,6 +1,0 @@
-Console.Write("Wie viele Tage hat der Monat, für den Sie die Sekundenanzahl berechnen wollen?");
-int anzahl = Convert.ToInt16(Console.ReadLine());
-
-int sekunden = anzahl * 24 * 60 * 60;
-
-Console.WriteLine("Ein Monat mit " + anzahl + " Tagen hat " + sekunden + " Sekunden.");

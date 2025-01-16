@@ -1,0 +1,38 @@
+Klassennamen: SquareTank
+Attribute:
+  name (String): Name des Tanks
+  sideLength (double): Länge der Seite des quadratischen Tanks in Metern
+  temperature (double): Zieltemperatur des Wassers in Grad Celsius
+  energyPerDay (double): Benötigte Energie pro Tag in Kilowattstunden
+
+Methoden:
+  SquareTank(String name, double sideLength, double temperature, double energyPerDay): Konstruktor zur Initialisierung der Attribute
+  calculateEnergy(): Berechnet die gespeicherte Energie im Tank
+  calculateDays(): Berechnet die Anzahl der Tage, die geheizt werden können
+
+
+
+Klassennamen: CylindricalTank
+Attribute:
+  name (String): Name des Tanks
+  radius (double): Radius des zylindrischen Tanks in Metern
+  height (double): Höhe des zylindrischen Tanks in Metern
+  temperature (double): Zieltemperatur des Wassers in Grad Celsius
+  energyPerDay (double): Benötigte Energie pro Tag in Kilowattstunden
+Methoden:
+  CylindricalTank(String name, double radius, double height, double temperature, double energyPerDay): Konstruktor zur Initialisierung der Attribute
+  calculateEnergy(): Berechnet die gespeicherte Energie im Tank
+  calculateDays(): Berechnet die Anzahl der Tage, die geheizt werden können
+
+
+
+Klassennamen: VolumeTank
+Attribute:
+  name (String): Name des Tanks
+  volumeLiters (double): Fassungsvermögen des Tanks in Litern
+  temperature (double): Zieltemperatur des Wassers in Grad Celsius
+  energyPerDay (double): Benötigte Energie pro Tag in Kilowattstunden
+Methoden:
+  VolumeTank(String name, double volumeLiters, double temperature, double energyPerDay): Konstruktor zur Initialisierung der Attribute
+  calculateEnergy(): Berechnet die gespeicherte Energie im Tank
+  calculateDays(): Berechnet die Anzahl der Tage, die geheizt werden können

@@ -1,0 +1,52 @@
+@startuml
+abstract class ch.iet_gibb.model.Tank {
+- String name
+- double volume
+- double maxTemperature
+- double energyPerDay
++ <<Create>> Tank(String,double,double,double)
++ double calculateSavedEnergy()
++ int calculateMaxDaysOfHeating()
++ String toString()
++ String getName()
++ double getVolume()
++ double getMaxTemperature()
++ double getEnergyPerDay()
++ void setName(String)
++ void setVolume(double)
++ void setMaxTemperature(double)
++ void setEnergyPerDay(double)
+}
+
+
+class ch.iet_gibb.model.CylindricalTank {
++ <<Create>> CylindricalTank(String,double,double,double)
+}
+
+class ch.iet_gibb.HeatCalculator {
++ {static} void main(String[])
+}
+
+class ch.iet_gibb.controller.HeatCalculatorController {
+- HeatCalculatorView view
++ <<Create>> HeatCalculatorController()
++ void run()
+}
+
+
+class ch.iet_gibb.model.SquareTank {
++ <<Create>> SquareTank(String,double,double,double)
+}
+
+class ch.iet_gibb.view.HeatCalculatorView {
+- ArrayList<Tank> models
++ <<Create>> HeatCalculatorView(ArrayList<Tank>)
++ void display()
+}
+
+
+
+
+ch.iet_gibb.model.Tank <|-- ch.iet_gibb.model.CylindricalTank
+ch.iet_gibb.model.Tank <|-- ch.iet_gibb.model.SquareTank
+@enduml

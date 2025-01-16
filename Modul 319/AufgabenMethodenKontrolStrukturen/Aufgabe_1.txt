@@ -1,9 +1,0 @@
-static void Main(string[] args)
-    {
-      Person("Mustermann", "Max", 42);
-    }
-
-    static void Person(String name, String vorname, int alter)
-    {
-      Console.WriteLine("Name: " + name + " Vorname: " + vorname + " Alter: " + alter);
-    }
