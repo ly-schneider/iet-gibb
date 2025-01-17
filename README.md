@@ -2,7 +2,7 @@
 
 ## Branches
 * [1.-Lehrjahr](https://github.com/ly-schneider/iet-gibb/tree/1.-Lehrjahr)
-* 2.-Lehrjahr (kommt noch)
+* [2.-Lehrjahr](https://github.com/ly-schneider/iet-gibb/tree/2.-Lehrjahr)
 * 3.-Lehrjahr (kommt noch)
 * 4.-Lehrjahr (kommt noch)
 
